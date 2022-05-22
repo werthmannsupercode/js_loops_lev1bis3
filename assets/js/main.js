@@ -258,10 +258,10 @@ let countMe = () => {
 
     else {
         let addition = 0;
-        for (let i = 0; i <= Number(maximaleZahl.value); i++) {
+        for (let i = 0; i < Number(maximaleZahl.value); i++) {
             let a = Number(ersteZahl.value);
             let b = Number(zweiteZahl.value);
-            if (Number(maximaleZahl.value) % a == 0 || Number(maximaleZahl.value) % b == 0) {
+            if (i % a == 0 || i % b == 0) {
                 r.push(i);
             }
         }
