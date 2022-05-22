@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <section>
+        <h1>Lev1_9</h1>
+        <form onsubmit="return false">
+            <input type="text" name="" id="wortlaenge">
+            <input type="submit" value="Schreibe die Wörter" onclick="schreibeInsHtml()"><br>
+            <input type="text" name="" id="neuesWort" placeholder="Schreibe hier ein beliebiges Wort">
+            <input type="submit" value="Hinzufügen" onclick="wortDazu()">
+        </form>
+        <div id="schreibeHier"></div>
+    </section>
+    <br><br>
+    <section>
+        <h1>Lev2_2</h1>
+        <form onsubmit="return false">
+            <input type="text" name="zahl" id="inputZahl">
+            <input type="submit" value="Loop Me" onclick="loopMe()">
+        </form>
+        <div id="loopHier"></div>
+    </section>
+    <br><br>
+    <section>
+        <h1>Lev3_3</h1>
+        <form onsubmit="return false">
+            <input type="text" name="zahl" id="inputZahl2">
+            <input type="submit" value="Loop Me" onclick="loopMe2()">
+        </form>
+        <div id="loopHier2"></div>
+    </section>
+    <br><br>
+    <section>
+        <h1>Lev3_4</h1>
+        <h2>Gib mir eine Zahl</h2>
+        <p>Ich werde ALLE Zahlen bis zu dieser Zahl addieren, wenn sie durch die ausgewählten Zahlen teilbar sind!</p>
+        <form onsubmit="return false">
+            <h5>Maximale Zahl</h5>
+            <input type="number" name="" id="maximaleZahl">
+            <h5>Erste Zahl</h5>
+            <select name="" id="ersteZahl">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <h5>Zweite Zahl</h5>
+            <select name="" id="zweiteZahl">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <input type="submit" value="Count Me" onclick="countMe()">
+        </form>
+        <div id="ergebnisHier"></div>
+    </section>
+    <br><br>
+    <section>
+        <h1>Lev3_2</h1>
+        <div id="teilbar"></div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
