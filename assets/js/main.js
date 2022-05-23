@@ -153,16 +153,17 @@ let trennt = () => {
     let durchlauf = Math.ceil(text3.length / 100);
 
     for (i = 1; i <= durchlauf; i++) {
-
-
         let v = 1 + 100 * i;
         let z = v - 100;
 
         //  console.log(text3.slice(z, v) + " - " + (i) + " of gesamte Nachricht");
         let newArrays = [text3.slice(z, v) + " - " + (i) + " of gesamte Nachricht"];
         console.log(newArrays);
+
     }
 }
+
+
 
 trennt();
 
